@@ -1,0 +1,38 @@
+VoicePTT 2.1 — free Windows push-to-talk helper
+
+The terminal-style boot animation is visual only. VoicePTT stays inactive until
+you enable it or use the configured hotkey.
+
+INSTALL
+Run VoicePTT-Setup-2.1.0.exe. It installs VoicePTT, adds a Start Menu shortcut,
+and can add a desktop shortcut. You can also run VoicePTT.exe without installing.
+
+FIRST SETUP
+1. Set a push-to-talk key inside your game or chat app.
+2. Select that same key under "Key sent to your game or app" in VoicePTT.
+   Scroll Lock is at the top of the list. You can also click Record and press it.
+3. Choose your microphone and talk behavior.
+4. Press Enable VoicePTT.
+
+MODES
+Voice activity: Speech presses the PTT key. Silence releases it after the chosen delay.
+Tap-to-talk: Tap the global hotkey to press PTT. Talking keeps it down; silence releases it.
+Hold-to-talk: Hold the global hotkey to press PTT, and release the hotkey to release PTT.
+
+The global control hotkey defaults to Ctrl+Alt+V. Click Record to use another key
+or combination, including Scroll Lock. The separate "Use Scroll Lock as hotkey"
+button sets it immediately. In voice activity mode the hotkey enables/disables
+listening; in the other modes it starts a transmission.
+
+SIGNAL SETTINGS
+Raise the activation level if noise triggers PTT. Lower it if quiet speech is missed.
+Keep the release level below activation to avoid rapidly opening and closing PTT.
+The release delay keeps PTT down briefly between words.
+
+OTHER NOTES
+VoicePTT reads mic volume locally; it does not record or upload audio. Settings are
+saved in %APPDATA%\VoicePTT\settings.json. The app can stay in the tray and launch
+at Windows sign-in if you enable those options. Use the tray menu to exit fully.
+
+For an elevated game, you may need to run VoicePTT as Administrator for its PTT
+key to reach the game. This app is unsigned, so Windows may show a SmartScreen notice.
